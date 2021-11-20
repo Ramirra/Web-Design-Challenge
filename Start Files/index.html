@@ -31,7 +31,7 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Latitude</a>
+              <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
             </div>
           </div>
 
@@ -57,6 +57,54 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
+    <div class="container">
+      <div class="row">
+        <!-- column for summary -->
+        <div class="col-md-8">
+          <article class="description-content">
+              <h1 class="description-header">Summary: Latitude Vs. X </h1>
+              <hr class="description-hr">
+              <a href="images/Fig1.png">
+           <img src="images/Fig1.png" title="City Latitude Vs. Max Temp Plot"
+            id="description-image"></a>
+            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+              To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.
+              Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
+              This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlatiosn witnessed.</p>
+          </article>
+        </div>
+
+        <!-- column for visualization -->
+        <div class="col-md-4">
+          <!-- add the thumbnails -->
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Visualizations</h2>
+              <hr>
+              <div id="images">
+                <a href="temp.html">
+                  <img src="images/Fig1.png" class= "imageNav-photo" title = "Latitude vs. Max Temp">
+                </a>
+                <a href="humidity.html">
+                  <img src="images/Fig2.png" class= "imageNav-photo" title = "Latitude vs. Humidity">
+                </a>
+                <a href="cloudiness.html">
+                  <img src="images/Fig3.png" class= "imageNav-photo" title = "Latitude vs. Cloudiness">
+                </a>
+                <a href="wind.html">
+                  <img src="images/Fig4.png" class= "imageNav-photo" title = "Latitude vs. Wind Speed">
+                </a>
+              </div>
+
+
+            </div>
+          </section>
+
+        </div>
+       
+      </div>
+    </div>
    
     <!-- End of container -->
 
